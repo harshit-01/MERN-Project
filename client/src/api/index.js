@@ -1,6 +1,10 @@
 import axios from 'axios';
 
+<<<<<<< HEAD
 const url = "https://memory-pevh.onrender.com/posts";
+=======
+const url = "https://memory-pevh.onrender.com";
+>>>>>>> cb0271eb376bfdf1df8dbde607e9889902f10ce1
 export const fetchPosts = ()=>{
      return axios.get(url);
 }
