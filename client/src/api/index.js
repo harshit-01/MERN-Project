@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = "https://memorycard-project.herokuapp.com/posts";
+const url = "https://memory-pevh.onrender.com";
 export const fetchPosts = ()=>{
      return axios.get(url);
 }
