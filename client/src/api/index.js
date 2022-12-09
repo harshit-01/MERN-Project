@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = "https://memory-pevh.onrender.com/posts";
+const url = "https://memory-app.onrender.com/posts";
 export const fetchPosts = ()=>{
      return axios.get(url);
 }
